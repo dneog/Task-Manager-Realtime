@@ -26,9 +26,14 @@ const unsubscribe = onSnapshot(q, (querySnapshot) => {
   querySnapshot.forEach((doc) => {
     
       const taskData= doc.data()
-      taskData.id = doc.id
-      sharedTasks.push(taskData)
+      // taskData.id = doc.id
+      
+      if(taskData.createdAt){
+        sharedTasks.push(taskData)
+      }
+     
   });
+  sharedTasks.sort((a,b)=> a.createdAt.toDate() - b.createdAt.toDate())
   
  setNewMessage(sharedTasks)
   
