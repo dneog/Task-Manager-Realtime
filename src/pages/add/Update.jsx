@@ -75,7 +75,7 @@ const Update = () => {
 
     const Pogress= [
         {id: 1, name: 'Pending'},
-        {id: 2, name: 'In Pogress'},
+        {id: 2, name: 'In Progress'},
         {id: 3, name: 'Completed'}
     ]
 
@@ -90,7 +90,7 @@ const Update = () => {
             
               <input type="text" name='name' value={name} onChange={handleInput} placeholder='Name'  />
              <select className={styles.pending} name="pogress" id="" value={pogress} onChange={handleInput}>
-             <option value="" disabled>Select Pogress</option>
+             <option value="" disabled>Select Progress</option>
                {Pogress.map((item)=> {
                 return (
                   <>
