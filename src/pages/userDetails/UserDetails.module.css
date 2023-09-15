@@ -1,0 +1,16 @@
+.userDetails{
+    width: auto;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 15px;
+    min-width: 300px;
+}
+
+.nameP{
+   padding-top: 1px;
+}
+
+.emailP{
+    font-weight: 500;
+    font-size: 20px;
+}

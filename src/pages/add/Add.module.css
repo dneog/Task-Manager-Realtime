@@ -1,0 +1,54 @@
+.addTask{
+    
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.addT{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.wid{
+   margin-top: 8px;
+    width: 40%;
+}
+
+.forms{
+    display: flex;
+    width: 100%;
+}
+.pending{
+    padding: 10px 5px;
+    font-size: 16px;
+    
+    margin-bottom: 15px;
+}
+.desc{
+    font-size: 16px;
+    padding: 7px;
+    margin-bottom: 15px;
+}
+.btnForm{
+    font-size: 18px;
+    padding: 7px;
+    margin-bottom: 15px;
+    background: #8751fe;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .addTask{
+        width: 350px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .addTask{
+        width: 290px;
+    }
+}

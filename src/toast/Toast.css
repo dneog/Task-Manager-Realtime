@@ -1,0 +1,44 @@
+.toast{
+    position: fixed;
+    top: 12%;
+    right: -7%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    padding: 10px;
+    border-radius: 5px;
+    background: #1eb252;
+    z-index: 1000;
+    color: white;
+    transition: all 0.5s;
+    
+}
+.error{
+    position: fixed;
+    top: 12%;
+    right: -8%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    padding: 10px;
+    border-radius: 5px;
+    background: #cd3817;
+    z-index: 1000;
+    color: white;
+    transition: all 0.5s;
+}
+
+
+.toast.display{
+    opacity: 1;
+}
+
+.toast.hide{
+    opacity: 0;
+}
+
+.error.display{
+    opacity: 1;
+}
+
+.error.hide{
+    opacity: 0;
+}

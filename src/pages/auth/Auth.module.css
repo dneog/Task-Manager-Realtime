@@ -1,0 +1,107 @@
+.login{
+    width: 415px;
+    background: #ffffff;
+    margin: auto;
+    padding: 15px;
+    margin-top: 120px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.14);
+}
+    .para{
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 12px;
+        color: #7940e2;
+    }
+    input{
+        padding: 6px;
+        font-size: 17px;
+        margin-bottom: 12px;
+        border: 0.4px solid rgba(0, 0, 0, 0.382);
+    }
+  
+    .button{
+        
+        font-size: 17.3px;
+        background: #8448f5;
+        color: white;
+        border: 0;
+        margin-top: 2px;
+        border-radius: 2px;
+        transition: all 0.2s;
+        cursor: pointer;
+        
+    }
+    .button:hover{
+        background: #7940e2;
+    }
+    .buttonss{
+        
+        font-size: 17.3px;
+        background: #8448f5;
+        color: white;
+        border: 0;
+        margin-top: 2px;
+        border-radius: 2px;
+        transition: all 0.2s;
+        cursor: pointer;
+        margin-bottom: 15px;
+        
+    }
+    .buttonss:hover{
+        background: #7940e2;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    .pass{
+        font-size: 15px;
+        padding-top: 7px;
+        text-align: left;
+        padding-bottom: 8px;
+    }
+    .signup{
+        margin-bottom: 13px;
+        font-size: 17.3px;
+        background: #8448f5;
+        color: white;
+        border: 0;
+        margin-top: 2px;
+        border-radius: 2px;
+        transition: all 0.2s;
+        cursor: pointer;
+
+    }
+    .load{
+        width: 24px;
+        
+       margin-bottom: 3.5px;
+       margin-top: 8px;
+       
+    }
+    
+    .signuptext{
+        margin: 5px;
+        padding-bottom: 2px;
+        padding-top: 2px;
+        color: white;
+    }
+
+
+.ac{
+    width: 400px;
+    margin: auto;
+    padding-top: 16px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .login{
+        width: 300px;
+       
+    }
+}
